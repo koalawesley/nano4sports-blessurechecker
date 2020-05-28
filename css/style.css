@@ -1,0 +1,541 @@
+@font-face {
+  font-family: Cabin Regular;
+  src: url("../fonts/Cabin-Regular.otf") format("opentype"); }
+@font-face {
+  font-family: GlacialIndifference Regular;
+  src: url("../fonts/GlacialIndifference-Regular.otf") format("opentype"); }
+h1, h2, h3, h4, h5 {
+  font-family: "GlacialIndifference Regular", sans-serif; }
+
+h1 {
+  margin-top: 0;
+  font-size: 1.383em; }
+
+h2 {
+  font-size: 1.296em; }
+
+h3 {
+  font-size: 1.215em; }
+
+h4 {
+  font-size: 1.138em; }
+
+h5 {
+  font-size: 1.067em; }
+
+small, .text_small {
+  font-size: 0.937em; }
+
+html {
+  font-size: 18px; }
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */ }
+
+body {
+  font-family: "Cabin Regular", sans-serif;
+  background: white;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+
+img {
+  max-width: 100%; }
+
+a {
+  color: white; }
+  a:hover {
+    color: white; }
+
+header {
+  font-size: 28px;
+  background: #1a2980;
+  padding: 0px 5px;
+  color: white;
+  border-bottom: 3px solid #ffde59; }
+  header img {
+    width: 100%; }
+  header .headerElements {
+    padding: 5px 0; }
+    header .headerElements .headerIcon i {
+      color: #ffde59;
+      position: relative;
+      font-size: 40px;
+      opacity: 100;
+      left: 0;
+      -webkit-transition: all 0.4s ease;
+      transition: all 0.4s ease;
+      margin-top: 4px; }
+    header .headerElements .headerIcon.hide a {
+      cursor: context-menu; }
+    header .headerElements .headerIcon.hide i {
+      left: -100px; }
+    header .headerElements .blessurecheck img {
+      max-height: 50px; }
+
+main #graph h5 {
+  display: inline-block; }
+  main #graph h5.question {
+    font-size: 45px;
+    margin-top: 6px; }
+main #graph .grafiek {
+  height: 251px;
+  background: #FBFBFB; }
+main #graph .lines {
+  position: relative; }
+  main #graph .lines .lineContainer {
+    display: inline-block;
+    width: 100%; }
+    main #graph .lines .lineContainer .line {
+      width: 15%;
+      height: 8px;
+      display: inline-block; }
+      @media (min-width: 500px) {
+        main #graph .lines .lineContainer .line {
+          width: 30%; } }
+      main #graph .lines .lineContainer .line.primary {
+        background: #1A2980; }
+      main #graph .lines .lineContainer .line.secondary {
+        background: #26D0CE; }
+    main #graph .lines .lineContainer h5 {
+      display: inline-block;
+      padding: 0 20px; }
+  main #graph .lines .borderLine {
+    height: 65%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%); }
+main #graph .borderstyle {
+  border: 1px solid rgba(77, 77, 77, 0.2); }
+main #graph .stats {
+  border-bottom: 1px solid rgba(77, 77, 77, 0.2);
+  background: #FBFBFB; }
+  main #graph .stats h5 {
+    padding-left: 20px;
+    padding-top: 2px;
+    margin-bottom: 0; }
+main #graph .buttons .col-6 {
+  padding: 0; }
+main #graph .buttons .button i {
+  right: 12%;
+  position: absolute;
+  top: 49%;
+  transform: translateY(-50%);
+  -webkit-transform: translatey(-50%);
+  font-size: 1.5rem;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+  @media (min-width: 500px) {
+    main #graph .buttons .button i {
+      right: 22%; } }
+main #graph .buttons .button:hover i {
+  right: 20%; }
+main .bodyHolder {
+  width: 576px;
+  height: 496px;
+  background: rgba(77, 77, 77, 0.05);
+  overflow: hidden;
+  position: relative; }
+  main .bodyHolder .easter {
+    position: absolute;
+    width: 55px;
+    height: 300px;
+    background: #dfb294;
+    left: 36%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    z-index: 6;
+    top: -300px;
+    -webkit-transition: all 1s cubic-bezier(0, 1.51, 0.74, 1.54);
+    transition: all 1s cubic-bezier(0, 1.51, 0.74, 1.54);
+    border-radius: 25px; }
+    @media (min-width: 500px) {
+      main .bodyHolder .easter {
+        left: 49%; } }
+    main .bodyHolder .easter .inner {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      background: #efadad;
+      height: 63px;
+      border-radius: 25px; }
+    main .bodyHolder .easter.show {
+      top: -100px; }
+  main .bodyHolder img {
+    position: absolute;
+    max-width: none;
+    z-index: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    main .bodyHolder img.default {
+      height: 1181px;
+      top: -145%;
+      left: 38%;
+      transform: translateX(-50%); }
+      @media (min-width: 500px) {
+        main .bodyHolder img.default {
+          height: 1500px;
+          top: -120%;
+          left: 50%;
+          transform: translateX(-50%); } }
+    main .bodyHolder img.rechterknie {
+      height: 2000px;
+      top: -238%;
+      left: 65%;
+      transform: translateX(-50%); }
+      @media (min-width: 500px) {
+        main .bodyHolder img.rechterknie {
+          height: 2569px;
+          top: -210%;
+          left: 83%;
+          transform: translateX(-50%); } }
+    main .bodyHolder img.linkerknie {
+      height: 2000px;
+      top: -238%;
+      left: 18%;
+      transform: translateX(-50%); }
+      @media (min-width: 500px) {
+        main .bodyHolder img.linkerknie {
+          height: 2569px;
+          top: -205%;
+          left: 31%;
+          transform: translateX(-50%); } }
+    main .bodyHolder img.linkerbeen {
+      height: 2000px;
+      top: -270%;
+      left: 22%; }
+      @media (min-width: 500px) {
+        main .bodyHolder img.linkerbeen {
+          height: 2569px;
+          top: -236%;
+          left: 22%; } }
+    main .bodyHolder img.rechterbeen {
+      height: 2000px;
+      top: -270%;
+      left: 63%; }
+      @media (min-width: 500px) {
+        main .bodyHolder img.rechterbeen {
+          height: 2569px;
+          top: -242%;
+          left: 91%; } }
+    main .bodyHolder img.linkervoet {
+      height: 2166px;
+      top: -347%;
+      left: 16%; }
+      @media (min-width: 500px) {
+        main .bodyHolder img.linkervoet {
+          height: 2569px;
+          top: -272%;
+          left: 22%; } }
+    main .bodyHolder img.rechtervoet {
+      height: 2166px;
+      top: -347%;
+      left: 71%; }
+      @media (min-width: 500px) {
+        main .bodyHolder img.rechtervoet {
+          height: 2569px;
+          top: -272%;
+          left: 90%; } }
+  main .bodyHolder .dot {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background: rgba(255, 222, 89, 0.8);
+    z-index: 2;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease; }
+    main .bodyHolder .dot#linkerknie {
+      left: 43%;
+      top: 13%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#linkerknie {
+          left: 60%;
+          top: 18%; } }
+    main .bodyHolder .dot#rechterknie {
+      left: 15%;
+      top: 16%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#rechterknie {
+          left: 18%;
+          top: 20%; } }
+    main .bodyHolder .dot#linkerbeen {
+      left: 44%;
+      top: 40%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#linkerbeen {
+          left: 60%;
+          top: 44%; } }
+    main .bodyHolder .dot#rechterbeen {
+      left: 16%;
+      top: 44%; }
+    main .bodyHolder .dot#linkervoet {
+      left: 42%;
+      top: 69%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#linkervoet {
+          left: 60%;
+          top: 69%; } }
+    main .bodyHolder .dot#rechtervoet {
+      left: 12%;
+      top: 70%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#rechtervoet {
+          left: 12%;
+          top: 73%; } }
+    main .bodyHolder .dot#linkerknieVoor {
+      left: 26%;
+      top: 34%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#linkerknieVoor {
+          left: 43%;
+          top: 43%; } }
+    main .bodyHolder .dot#linkerknieBuiten {
+      left: 40%;
+      top: 27%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#linkerknieBuiten {
+          left: 58%;
+          top: 37%; } }
+    main .bodyHolder .dot#rechterknieVoor {
+      left: 30%;
+      top: 40%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#rechterknieVoor {
+          left: 40%;
+          top: 40%; } }
+    main .bodyHolder .dot#rechterknieBuiten {
+      left: 16%;
+      top: 32%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#rechterknieBuiten {
+          left: 25%;
+          top: 35%; } }
+    main .bodyHolder .dot#linkerbeenIngezoomd {
+      left: 45%;
+      top: 22%; }
+    main .bodyHolder .dot#linkervoetHielbeen {
+      left: 20%;
+      top: 41%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#linkervoetHielbeen {
+          left: 31%;
+          top: 54%; } }
+    main .bodyHolder .dot#linkervoetAchilles {
+      left: 21%;
+      top: 20%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#linkervoetAchilles {
+          left: 31%;
+          top: 38%; } }
+    main .bodyHolder .dot#linkervoetEnkel {
+      left: 34%;
+      top: 31%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#linkervoetEnkel {
+          left: 46%;
+          top: 45%; } }
+    main .bodyHolder .dot#rechtervoetHielbeen {
+      left: 33%;
+      top: 52%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#rechtervoetHielbeen {
+          left: 47%;
+          top: 65%; } }
+    main .bodyHolder .dot#rechtervoetAchilles {
+      left: 35%;
+      top: 32%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#rechtervoetAchilles {
+          left: 49%;
+          top: 48%; } }
+    main .bodyHolder .dot#rechtervoetEnkel {
+      left: 20%;
+      top: 38%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#rechtervoetEnkel {
+          left: 34%;
+          top: 55%; } }
+    main .bodyHolder .dot#rechterbeenScheen {
+      left: 30%;
+      top: 57%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#rechterbeenScheen {
+          left: 45%;
+          top: 57%; } }
+    main .bodyHolder .dot#rechterbeenKuitbeen {
+      left: 19%;
+      top: 43%; }
+      @media (min-width: 500px) {
+        main .bodyHolder .dot#rechterbeenKuitbeen {
+          left: 34%;
+          top: 43%; } }
+    main .bodyHolder .dot#linkerbeenScheen {
+      left: 28%;
+      top: 57%; }
+    main .bodyHolder .dot#linkerbeenKuitbeen {
+      left: 42%;
+      top: 46%; }
+    main .bodyHolder .dot.hide {
+      opacity: 0;
+      width: 0px;
+      height: 0px; }
+main .col-12 {
+  padding: 0; }
+main .button {
+  background-color: #1a2980;
+  color: #ffde59;
+  padding: 17px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  border-top: 3px solid #ffde59;
+  border-bottom: 1px solid #4D4D4D; }
+
+.col-12 {
+  padding: 0 5px; }
+
+.textWrapper {
+  position: absolute;
+  width: 100%;
+  top: -40px;
+  z-index: 3;
+  text-align: center; }
+  .textWrapper h3 {
+    color: #1A2980;
+    font-size: 1.5rem;
+    font-style: italic; }
+
+#tipsModal {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  background: white;
+  bottom: -45px;
+  border-radius: 25px;
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease; }
+  #tipsModal h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #1A2980;
+    font-family: "GlacialIndifference Regular", sans-serif; }
+  #tipsModal h2 {
+    text-align: center;
+    font-style: italic;
+    color: #4D4D4D;
+    font-family: "Cabin Regular", sans-serif;
+    margin: 0; }
+  #tipsModal h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4D4D4D;
+    font-style: italic;
+    font-family: "Cabin Regular", sans-serif;
+    margin: 0;
+    margin-top: 35px; }
+  #tipsModal.showModal {
+    opacity: 100;
+    height: 90vh; }
+    @media (min-width: 500px) {
+      #tipsModal.showModal {
+        height: 95vh; } }
+    #tipsModal.showModal #content {
+      display: block; }
+  #tipsModal #exit {
+    position: absolute;
+    right: 0;
+    font-size: 2.3rem;
+    color: #C82B2B;
+    z-index: 5; }
+    #tipsModal #exit i {
+      margin-right: 27px;
+      padding-top: 25px; }
+      @media (min-width: 500px) {
+        #tipsModal #exit i {
+          margin-right: 50px; } }
+  #tipsModal #content {
+    display: none;
+    margin-top: 30px;
+    padding: 0 30px;
+    max-height: 700px;
+    overflow: scroll; }
+    #tipsModal #content ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      padding-top: 15px;
+      color: #4D4D4D; }
+      #tipsModal #content ul li {
+        position: relative;
+        padding-bottom: 20px;
+        padding-left: 20px; }
+        #tipsModal #content ul li:last-child {
+          padding-bottom: 0; }
+        #tipsModal #content ul li:before {
+          position: absolute;
+          left: 0; }
+      @media (min-width: 500px) {
+        #tipsModal #content ul img {
+          height: 150px; } }
+      #tipsModal #content ul h4 {
+        margin-bottom: 0; }
+      #tipsModal #content ul span {
+        font-style: italic;
+        opacity: 0.6;
+        font-size: 13px; }
+      #tipsModal #content ul.oorzaken li {
+        padding-left: 25px; }
+        #tipsModal #content ul.oorzaken li:before {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f071";
+          color: #FFDE59; }
+      #tipsModal #content ul.behandeling {
+        padding-bottom: 30px; }
+        #tipsModal #content ul.behandeling li:before {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f0eb";
+          color: #26D0CE; }
+  #tipsModal .fadeContent {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), white);
+    z-index: 5;
+    bottom: 109px; }
+  #tipsModal .button {
+    position: absolute;
+    bottom: 45px;
+    width: 50%;
+    right: 0; }
+    #tipsModal .button.white {
+      background: white;
+      color: #4D4D4D;
+      left: 0; }
+
+.button.white {
+  background: white;
+  color: #4D4D4D;
+  left: 0; }
+
+#second {
+  display: none; }
+
+.overflowno {
+  overflow-x: visible; }
+  .overflowno h3 {
+    font-size: 20px; }
+
+main {
+  overflow-x: hidden; }
+
+/*# sourceMappingURL=style.css.map */

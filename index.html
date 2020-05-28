@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BLESSURECHECK</title>
+</head>
+
+<body>
+    <header class="container">
+        <div class="row">
+            <div class="col-12">
+                <img src="img/status.svg" alt="">
+            </div>
+        </div>
+        <div class="row headerElements">
+            <div class="col-2 text-left headerIcon hide">
+                <a href="#" id="back"><!-- <i class="fal fa-arrow-left"></i> --><i class="fas fa-arrow-left"></i></a>
+            </div>
+            <div class="col-8 text-center blessurecheck">
+                <img src="img/trainer.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="container">
+       
+        <div id="graph">
+            <div class="row">
+                <div class="col-12">
+                     <div class="grafiek">
+                        <canvas id="myChart" width="400" height="400"></canvas>
+                     </div>
+                </div>
+            </div>
+            <div class="row pt-3 pb-3 borderstyle">
+                <div class="col-12 text-center"><h5 class="question" id="question">Goed gelopen!</h5></div>
+            </div>
+            <div class="row pt-3 pb-3 stats">
+                <div class="col-10">
+                    <img src="img/gemiddeld.svg" alt=""><h5>Gemiddelde snelheid</h5>
+                </div>
+                <div class="col-2 text-center"><h4 id="average">100 BPM</h4></div>
+            </div>
+            <div class="row pt-3 pb-3 stats">
+                <div class="col-10">
+                    <img src="img/maximaal.svg" alt=""><h5>Maximale snelheid</h5>
+                </div>
+                <div class="col-2 text-center"><h4 id="maximum">150 BPM</h4></div>
+            </div>
+            <div class="row buttons">
+                <div class="col-6">
+                    <a href="#" class="button white">Voltooien</a>
+                </div>
+                <div class="col-6">
+                    <a href="#" class="button showBody">Blessurecheck<i class="fas fa-angle-right"></i></a>
+                </div>
+                        
+                </div>
+            </div>
+           
+        </div>
+        <div id="second">
+    		<div class="row">
+    			<div class="col-12">
+    		        <div class="bodyHolder">
+                        <div class="easter">
+                            <div class="inner"></div>
+                        </div>
+                        <img src="img/mannequin_export.jpg" id="bodyPng" class="default" alt="">
+                        <div class="dot" data-index-number="1" id="rechterknie"></div>
+                        <div class="dot" data-index-number="2" id="linkerknie"></div>
+
+                        <div class="dot" data-index-number="3" id="rechterbeen"></div>
+                        <div class="dot" data-index-number="4" id="linkerbeen"></div>
+
+                        <div class="dot" data-index-number="5" id="rechtervoet"></div>
+                        <div class="dot" data-index-number="6" id="linkervoet"></div>
+
+                        <div class="dot hide" data-index-number="7" data-plek="LKvoor" id="linkerknieVoor"></div>
+                        <div class="dot hide" data-index-number="7" data-plek="LKbuiten" id="linkerknieBuiten"></div>
+
+                        <div class="dot hide" data-index-number="8" data-plek="RKvoor" id="rechterknieVoor"></div>
+                        <div class="dot hide" data-index-number="8" data-plek="RKbuiten" id="rechterknieBuiten"></div>
+
+                        <div class="dot hide" data-index-number="11" data-plek="RBscheen" id="rechterbeenScheen"></div>
+                        <div class="dot hide" data-index-number="11" data-plek="RBkuitbeen" id="rechterbeenKuitbeen"></div>
+
+                        <div class="dot hide" data-index-number="12" data-plek="LBscheen" id="linkerbeenScheen"></div>
+                        <div class="dot hide" data-index-number="12" data-plek="LBkuitbeen" id="linkerbeenKuitbeen"></div>
+
+                        <div class="dot hide" data-index-number="9" data-plek="RVhielbeen" id="rechtervoetHielbeen"></div>
+                        <div class="dot hide" data-index-number="9" data-plek="RVachilles" id="rechtervoetAchilles"></div>
+                        <div class="dot hide" data-index-number="9" data-plek="RVenkel" id="rechtervoetEnkel"></div>
+
+
+                        <div class="dot hide" data-index-number="10" data-plek="LVhielbeen" id="linkervoetHielbeen"></div>
+                        <div class="dot hide" data-index-number="10" data-plek="LVachilles" id="linkervoetAchilles"></div>
+                        <div class="dot hide" data-index-number="10" data-plek="LVenkel" id="linkervoetEnkel"></div>
+
+
+    		            <!-- <div class="dot hide" data-index-number="8"  id="linkerbeenIngezoomd"></div> -->
+    		        </div>
+    		        <div class="container overflowno">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="textWrapper">
+                                    <h3>Klik op de plek waar u last heeft</h3>
+                                </div>
+                            </div>
+                        </div>
+    		            <div class="row">
+    		                <div class="col-12">
+    		                    <a href="#" class="button closeThis">Geen klachten</a>
+    		                </div>
+    		            </div>
+    		        </div>
+                    <div id="tipsModal">
+                        <div id="exit">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <div id="content"></div>
+                        <div class="fadeContent"></div>
+                        <a href="#" class="button white">Contact</a>
+                        <a href="#" class="button">Voltooien</a>
+                    </div>
+    	        </div>
+    	    </div>
+        </div>
+    </main>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first then Bootstrap JS -->
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+    <script src="js/script.js"></script>
+           
+  
+</body>
+
+</html>

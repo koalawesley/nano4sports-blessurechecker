@@ -1,0 +1,108 @@
+[
+  {
+    "lichaamsdeel": "voet",
+    "plek": "LVhielbeen",
+    "naam": "Het hielbeen",
+    "tips": ["Intensief en veel trainen", "Een standafwijking van de voet of het onderbeen.", "Korte kuitspieren.", "Slechte demping (door bijvoorbeeld versleten schoenen)."],
+    "behandeling": ["Stop of verminder direct je looptraining.", "Vervang je looptraining door bijvoorbeeld fietsen.", "Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.", "Masseer de voetzool 1-2 keer per dag gedurende 10 minuten per keer.", "Je kunt de voetzool prima masseren door met de onderzijde van de voet over een golfballetje of stokje heen te rollen.", "Rek je diepe kuitspieren 4-5 keer per dag.", "Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen.", "Bijvoorbeeld: 4 keer 2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  },
+  {
+    "lichaamsdeel": "voet",
+    "plek": "LVachilles",
+    "naam": "De achillespees",
+    "tips": ["Eenmalig en/of regelmatig intensief en veel trainen.","Onvoldoende warming-up met rekoefeningen voor de kuitspieren.","Heuveltraining.","Training op een harde ondergrond.","Een standafwijking van de voet en of knie.","Beenlengte verschil.","Verkorte of stijve kuitspieren.","Overgewicht.","Slechte demping (door bijvoorbeeld versleten schoenen).","Versleten of verkeerde loopschoenen."],
+    "behandeling": ["Stop of verminder direct je looptraining.","Vervang je looptraining door bijvoorbeeld rustig fietsen.","Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.","Masseer de achillespees op en rond het pijnlijke gebied 1-2 keer per dag gedurende 10 minuten per keer.","Rek je achillespees 4-5 keer per dag.","Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen.","Bijvoorbeeld: 5 keer 1-2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  },
+   {
+    "lichaamsdeel": "voet",
+    "plek": "LVenkel",
+    "naam": "De enkel**",
+    "tips": ["Intensief en veel trainen", "Een standafwijking van de voet of het onderbeen.", "Korte kuitspieren.", "Slechte demping (door bijvoorbeeld versleten schoenen)."],
+    "behandeling": ["Stop of verminder direct je looptraining.", "Vervang je looptraining door bijvoorbeeld fietsen.", "Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.", "Masseer de voetzool 1-2 keer per dag gedurende 10 minuten per keer.", "Je kunt de voetzool prima masseren door met de onderzijde van de voet over een golfballetje of stokje heen te rollen.", "Rek je diepe kuitspieren 4-5 keer per dag.", "Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen.", "Bijvoorbeeld: 4 keer 2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  },
+  {
+    "lichaamsdeel": "voet",
+    "plek": "RVhielbeen",
+    "naam": "Het hielbeen",
+    "tips": ["Intensief en veel trainen", "Een standafwijking van de voet of het onderbeen.", "Korte kuitspieren.", "Slechte demping (door bijvoorbeeld versleten schoenen)."],
+    "behandeling": ["Stop of verminder direct je looptraining.", "Vervang je looptraining door bijvoorbeeld fietsen.", "Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.", "Masseer de voetzool 1-2 keer per dag gedurende 10 minuten per keer.", "Je kunt de voetzool prima masseren door met de onderzijde van de voet over een golfballetje of stokje heen te rollen.", "Rek je diepe kuitspieren 4-5 keer per dag.", "Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen.", "Bijvoorbeeld: 4 keer 2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  },
+  {
+    "lichaamsdeel": "voet",
+    "plek": "RVachilles",
+    "naam": "De achillespees",
+    "tips": ["Eenmalig en/of regelmatig intensief en veel trainen.","Onvoldoende warming-up met rekoefeningen voor de kuitspieren.","Heuveltraining.","Training op een harde ondergrond.","Een standafwijking van de voet en of knie.","Beenlengte verschil.","Verkorte of stijve kuitspieren.","Overgewicht.","Slechte demping (door bijvoorbeeld versleten schoenen).","Versleten of verkeerde loopschoenen."],
+    "behandeling": ["Stop of verminder direct je looptraining.","Vervang je looptraining door bijvoorbeeld rustig fietsen.","Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.","Masseer de achillespees op en rond het pijnlijke gebied 1-2 keer per dag gedurende 10 minuten per keer.","Rek je achillespees 4-5 keer per dag.","Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen.","Bijvoorbeeld: 5 keer 1-2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  },
+  {
+    "lichaamsdeel": "voet",
+    "plek": "RVenkel",
+    "naam": "De enkel**",
+    "tips": ["Intensief en veel trainen", "Een standafwijking van de voet of het onderbeen.", "Korte kuitspieren.", "Slechte demping (door bijvoorbeeld versleten schoenen)."],
+    "behandeling": ["Stop of verminder direct je looptraining.", "Vervang je looptraining door bijvoorbeeld fietsen.", "Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.", "Masseer de voetzool 1-2 keer per dag gedurende 10 minuten per keer.", "Je kunt de voetzool prima masseren door met de onderzijde van de voet over een golfballetje of stokje heen te rollen.", "Rek je diepe kuitspieren 4-5 keer per dag.", "Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen.", "Bijvoorbeeld: 4 keer 2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  },
+    {
+    "lichaamsdeel": "voet",
+    "plek": "achillespees", 
+    "tips": ["Red", "BLUE"],
+    "behandeling": ["Geef me je geld", "gesloten"]
+  },
+  {
+    "lichaamsdeel": "knie",
+    "plek": "LKvoor",
+    "naam": "Voorkant knie",
+    "tips": ["Intensief en veel trainen (eenmalig of frequent).","Heuveltraining.","Spierdisbalans voorzijde/achterzijde dijbeen.","Afwijkingen van de knieschijf en/of dijbeen.","Eerder doorgemaakte val op knieschijf","Een standafwijking van de voet, knie en/of heup.","Slechte demping (door bijvoorbeeld versleten schoenen).","Versleten of verkeerde loopschoenen."],
+    "advertentie": ["https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/soci1uouc2jwh2uppbyo/air-vapormax-flyknit-2-safari-schoen-xs4GbT.jpg", "https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/vc1zjbl3ggwrupchain2/air-vapormax-flyknit-2-safari-schoen-xs4GbT.jpg", "https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/yejrhherafcj5cxwt23p/air-max-95-og-schoen-VH1VNT.jpg"],
+    "behandeling": ["Stop of verminder direct je looptraining.","Vervang je looptraining door bijvoorbeeld rustig fietsen.","Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.","Rek de voorzijde en achterzijde zijde van je bovenbeen 4-5 keer per dag.","Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen. ","Bijvoorbeeld: 4 keer 2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  },
+  {
+    "lichaamsdeel": "knie",
+    "plek": "RKvoor",
+    "naam": "Voorkant knie",
+    "tips": ["Intensief en veel trainen (eenmalig of frequent).","Heuveltraining.","Spierdisbalans voorzijde/achterzijde dijbeen.","Afwijkingen van de knieschijf en/of dijbeen.","Eerder doorgemaakte val op knieschijf","Een standafwijking van de voet, knie en/of heup.","Slechte demping (door bijvoorbeeld versleten schoenen).","Versleten of verkeerde loopschoenen."],
+    "advertentie": ["https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/soci1uouc2jwh2uppbyo/air-vapormax-flyknit-2-safari-schoen-xs4GbT.jpg", "https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/vc1zjbl3ggwrupchain2/air-vapormax-flyknit-2-safari-schoen-xs4GbT.jpg", "https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/yejrhherafcj5cxwt23p/air-max-95-og-schoen-VH1VNT.jpg"],
+    "behandeling": ["Stop of verminder direct je looptraining.","Vervang je looptraining door bijvoorbeeld rustig fietsen.","Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.","Rek de voorzijde en achterzijde zijde van je bovenbeen 4-5 keer per dag.","Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen. ","Bijvoorbeeld: 4 keer 2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  },
+  {
+    "lichaamsdeel": "knie",
+    "plek": "LKbuiten",
+    "naam": "Buitenkant knie",
+    "tips": ["Eenmalig en/of regelmatig intensief en veel trainen.","Training aan één zijde van de weg (schuinwegdek).","Heuveltraining","Een standafwijking van de voet en of de knie.","Beenlengte verschil.","Slechte demping (door bijvoorbeeld versleten schoenen).","Stugge, nieuwe schoenen."],
+    "behandeling": ["Stop of verminder direct je looptraining.","Vervang je looptraining door bijvoorbeeld rustig fietsen.","Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.","Masseer de peesplaat net boven het pijnlijke gebied 1-2 keer per dag gedurende 10 minuten per keer.","Rek de buitenzijde van het bovenbeen 4-5 keer per dag.","Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen.","Bijvoorbeeld: 4 keer 2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  },
+  {
+    "lichaamsdeel": "knie",
+    "plek": "RKbuiten",
+    "naam": "Buitenkant knie",
+    "tips": ["Eenmalig en/of regelmatig intensief en veel trainen.","Training aan één zijde van de weg (schuinwegdek).","Heuveltraining","Een standafwijking van de voet en of de knie.","Beenlengte verschil.","Slechte demping (door bijvoorbeeld versleten schoenen).","Stugge, nieuwe schoenen."],
+    "behandeling": ["Stop of verminder direct je looptraining.","Vervang je looptraining door bijvoorbeeld rustig fietsen.","Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.","Masseer de peesplaat net boven het pijnlijke gebied 1-2 keer per dag gedurende 10 minuten per keer.","Rek de buitenzijde van het bovenbeen 4-5 keer per dag.","Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen.","Bijvoorbeeld: 4 keer 2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  },
+  {
+    "lichaamsdeel": "been",
+    "plek": "RBscheen",
+    "naam": "Het scheenbeen",
+    "tips": ["Eenmalig en/of regelmatig intensief en veel trainen.","Onvoldoende warming-up met rekoefeningen voor de kuitspieren.","Training op een harde ondergrond.","Heuveltraining.","Een standafwijking van de voet.","Beenlengte verschil.","Verkorte of stijve kuitspieren.","Overgewicht.","Slechte demping (door bijvoorbeeld versleten schoenen).","Versleten of verkeerde loopschoenen."],
+    "behandeling": ["Stop of verminder direct je looptraining.","Vervang je looptraining door bijvoorbeeld rustig fietsen.","Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.","Masseer de achillespees op en rond het pijnlijke gebied 1-2 keer per dag gedurende 10 minuten per keer.","Rek je kuitspieren 4-5 keer per dag.","Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen.","Bijvoorbeeld: 5 keer 1-2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  },
+  {
+    "lichaamsdeel": "been",
+    "plek": "RBkuitbeen",
+    "naam": "Het kuitbeen**",
+    "tips": ["Eenmalig en/of regelmatig intensief en veel trainen.","Training aan één zijde van de weg (schuinwegdek).","Heuveltraining","Een standafwijking van de voet en of de knie.","Beenlengte verschil.","Slechte demping (door bijvoorbeeld versleten schoenen).","Stugge, nieuwe schoenen."],
+    "behandeling": ["Stop of verminder direct je looptraining.","Vervang je looptraining door bijvoorbeeld rustig fietsen.","Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.","Masseer de peesplaat net boven het pijnlijke gebied 1-2 keer per dag gedurende 10 minuten per keer.","Rek de buitenzijde van het bovenbeen 4-5 keer per dag.","Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen.","Bijvoorbeeld: 4 keer 2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  },
+  {
+    "lichaamsdeel": "been",
+    "plek": "LBscheen",
+    "naam": "Het scheenbeen",
+    "tips": ["Eenmalig en/of regelmatig intensief en veel trainen.","Onvoldoende warming-up met rekoefeningen voor de kuitspieren.","Training op een harde ondergrond.","Heuveltraining.","Een standafwijking van de voet.","Beenlengte verschil.","Verkorte of stijve kuitspieren.","Overgewicht.","Slechte demping (door bijvoorbeeld versleten schoenen).","Versleten of verkeerde loopschoenen."],
+    "behandeling": ["Stop of verminder direct je looptraining.","Vervang je looptraining door bijvoorbeeld rustig fietsen.","Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.","Masseer de achillespees op en rond het pijnlijke gebied 1-2 keer per dag gedurende 10 minuten per keer.","Rek je kuitspieren 4-5 keer per dag.","Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen.","Bijvoorbeeld: 5 keer 1-2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  },
+  {
+    "lichaamsdeel": "been",
+    "plek": "LBkuitbeen",
+    "naam": "Het kuitbeen**",
+    "tips": ["Eenmalig en/of regelmatig intensief en veel trainen.","Training aan één zijde van de weg (schuinwegdek).","Heuveltraining","Een standafwijking van de voet en of de knie.","Beenlengte verschil.","Slechte demping (door bijvoorbeeld versleten schoenen).","Stugge, nieuwe schoenen."],
+    "behandeling": ["Stop of verminder direct je looptraining.","Vervang je looptraining door bijvoorbeeld rustig fietsen.","Koel de pijnlijke plek met ijs 3- 4 keer per dag gedurende 10-15 minuten per keer.","Masseer de peesplaat net boven het pijnlijke gebied 1-2 keer per dag gedurende 10 minuten per keer.","Rek de buitenzijde van het bovenbeen 4-5 keer per dag.","Hervat je training met korte stukjes hardlopen pas nadat je weer pijnvrij kunt wandelen.","Bijvoorbeeld: 4 keer 2 min. (zeer) rustig hardlopen met 2 min. wandelen tussendoor. Bouw dit bij de volgende trainingen heel rustig uit."]
+  }
+] 
